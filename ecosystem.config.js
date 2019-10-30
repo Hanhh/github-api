@@ -24,7 +24,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'git@github.com:Hanhh/github-api.git',
       path : '/var/www/',
-      'post-deploy' : 'cd src && npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy' : 'cd src && npm install && pm2 reload ../ecosystem.config.js --env production'
     }
   }
 };
