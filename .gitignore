@@ -47,6 +47,7 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 .history
+.history/src
 yarn.lock
 www/view/**/layout*.html
 built

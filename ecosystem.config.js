@@ -23,7 +23,7 @@ module.exports = {
       host : '49.232.43.50',
       ref  : 'origin/master',
       repo : 'git@github.com:Hanhh/github-api.git',
-      path : 'var/www/',
+      path : '/var/www/',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     }
   }
